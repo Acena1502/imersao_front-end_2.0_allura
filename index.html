@@ -1,37 +1,31 @@
-<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5. -->
+<!DOCTYPE html>
 <html lang="pt-BR"> 
     <head>
-        <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8, permitindo o uso de caracteres especiais, como acentos. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o comportamento da página para ser responsiva, ajustando-se ao tamanho da tela do dispositivo. -->
-        <title>Spotify da Açucena</title> <!-- Define o título da página que será exibido na aba do navegador. -->
-        <!-- Adiciona imagem na Guia da página -->
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Spotify da Açucena</title> 
         <link rel="icon" href="C:\Users\acuce\OneDrive\Documentos\codigos\imersao_front-end_allura\html_e_css\assets\icons\favicon.png" type="image/x-icon">
-      
-        <link rel="stylesheet" href="reset.css"> <!-- Importa um arquivo CSS de "reset", que geralmente remove os estilos padrão dos navegadores. -->
-        <link rel="stylesheet" href="styles.css"> <!-- Importa o arquivo principal de estilos CSS da página. -->
-      
-        <!-- LImporta ícones da biblioteca Font Awesome via CDN. -->
+        <link rel="stylesheet" href="reset.css"> 
+        <link rel="stylesheet" href="styles.css"> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
-      </head>
+    </head>
 <body>
-    <div class="sidebar"> <!-- Cria uma barra lateral (sidebar), geralmente usada para navegação. -->
-        <nav class="sidebar_navigation"> <!-- Cria a navegação dentro da barra lateral, permitindo organizar links e outros elementos. -->
-            <div class="logo"> <!-- Adiciona uma seção para a logo do site. -->
-                <a href=""> <!-- Cria um link clicável vazio (que pode ser preenchido no futuro). -->
+    <div class="sidebar"> 
+        <nav class="sidebar_navigation"> 
+            <div class="logo"> 
+                <a href=""> 
                     <img src="C:\Users\acuce\OneDrive\Documentos\codigos\imersao_front-end_allura\html_e_css\assets\icons\logo-spotify.png" 
-                    alt="Logo do Spotify"> <!-- Anexa a imagem -->
+                    alt="Logo do Spotify"> 
                 </a>
             </div>
-            <ul> <!-- Inicia uma lista não ordenada para os itens do menu. -->
-                <!-- Cria um item de lista com um link para "Início". O ícone é adicionado com a classe fa fa-home (Font Awesome).-->
+            <ul> 
                 <li> 
                     <a href=""> 
                         <span class="fa fa-home"> </span> 
                         <span>Início</span> 
                     </a>
                 </li> 
-                <!-- Cria um item de lista com um link para "Busca". O ícone é adicionado com a classe fa fa-serach (Font Awesome).-->
                 <li> 
                     <a href=""> 
                         <span class="fa fa-search"> </span> 
@@ -40,17 +34,46 @@
                 </li>
             </ul>
         </nav>
-        <div class="library">  <!-- Cria a seção "Minha biblioteca" na barra lateral. -->
+        <div class="library">  
             <div class="library_content"> 
-                <button class="library_button"> <!-- Cria o botão "Sua biblioteca" na barra lateral. -->
-                    <span class="fa fas fa-book"> </span> <!-- Adiciona o logo da biblioteca na barra lateral. -->
-                    <span>Sua biblioteca</span> <!-- Adicionao texto na barra lateral. -->
+                <button class="library_button"> 
+                    <span class="fa fas fa-book"> </span> 
+                    <span>Sua biblioteca</span> 
                 </button>
-                <span class="fa fa-plus"> </span><!-- Adiciona o logo de "mais" na barra lateral. -->
+                <a href="">
+                    <span class="fa fa-plus"> </span>
+                </a>
             </div>
-        </div> 
-        </nav>
-    </div>
+            <section class="section-playlist">
+                <div class="section-playlist_content">
+                    <span class="title">Crie sua primeira playlist</span>
+                    <span class="subtitle">É fácil, vamos te ajudar</span>
+                    <button class="section-playlist_button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+        <div class="languages">
+                <button class="languages_button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+        </div>
+        </div>
     </div>
 </body>
+<footer class="disclaimer_premium">
+    <div class="text">
+        <a href=""class="disclaimer_premium_title">Testar o Premium de graça</a>
+        <p class="disclaimer_premium_subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. 
+            Não precisa de cartão de crédito.
+        </p>
+    </div>
+    <button class="disclaimer_premium_button">
+        <span>Inscreva-se grátis</span>
+    </button>
+</footer>
 </html>
