@@ -25,7 +25,7 @@ Este projeto é uma recriação da página inicial do Spotify utilizando HTML, C
 * reset.css: Padraniza o projeto em diferentes dispositivos
 ## 📅 Fases do projeto
 - [x] **Aula 01:** Criação da SideBar
-- [ ] **Aula 02**
+- [x] **Aula 02**:Continuação da SideBar e Criação do Footer
 - [ ] **Aula 03**
 - [ ] **Aula 04**
 - [ ] **Aula 05**
