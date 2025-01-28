@@ -103,8 +103,9 @@ section {
 
 body {
   line-height: 1;
-  background: #000;
+  background-image: linear-gradient(to bottom, #E02522, #D222E0);
   font-family: var(--font-dm-sans);
+  height:100vh
 }
 
 ol,
