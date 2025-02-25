@@ -19,8 +19,11 @@ Este projeto é uma recriação da página inicial do Spotify utilizando HTML, C
 * /assets: Recursos como ícones, imagens, e arquivos adicionais.
   - icons/: Ícones usados no projeto.
   - playlist/: Imagens das Playlists usadas no projeto.
+*/styles: Estilos personalizados para  o projeto
+  - reset.css: Padroniza o projeto em diferentes dispositivos
+  - styles.css: Estilos personalizados para o projeto.
+  - vars.css: Armazena variáveis CSS, como cores, fontes e espaçamentos, para reutilização em todo o projeto.
+* artists.json: Armazena as informações sobre os artistas 
 * index.html: Página principal do projeto.
-* styles.css: Estilos personalizados para o projeto.
 * script.js: Funções interativas do site.
-* reset.css: Padraniza o projeto em diferentes dispositivos
 
